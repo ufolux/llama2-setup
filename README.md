@@ -23,10 +23,10 @@ This package allows you to quickly set up and run the Llama 2 large language mod
 ## Usage Example
 
 ```
-Please enter the Repository ID (default: TheBloke/Llama-2-7B-chat-GGML):
-> TheBloke/Llama-2-13B-chat-GGML
-Please enter the corresponding file name (default: llama-2-7b-chat.ggmlv3.q4_0.bin):
->llama-2-13b-chat.ggmlv3.q4_0.bin
+Please enter the Repository ID (default: TheBloke/Llama-2-7b-Chat-GGUF):
+> TheBloke/Llama-2-7b-Chat-GGUF
+Please enter the corresponding file name (default: llama-2-7b-chat.Q5_K_M.gguf):
+>llama-2-7b-chat.Q5_K_M.gguf
 
 ...some setup output...
 
