@@ -36,6 +36,10 @@ fi
 # Check for the model and download if not present
 [ ! -f models/${FILE} ] && curl -L "https://huggingface.co/${REPO_ID}/resolve/main/${FILE}" -o models/${FILE}
 
+# Setup webui
+git clone https://github.com/liltom-eth/llama2-webui.git
+
+
 # Set a welcoming prompt
 PROMPT="Hello! Need any assistance?"
 
